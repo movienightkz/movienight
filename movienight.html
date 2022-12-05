@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Link to CSS-->
+    <link rel="stylesheet" href="movienight.css">
+    <!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <title>Movie Night</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="nav container">
+            <a href="movienight.html" class="logo">Movie Night</a>
+            <!--Tickets-->
+            <div class="tickets">
+                <a href="#">Получить Билет</a>
+                <i class='bx bxs-coupon'></i>
+            </div>
+            <a href="http://localhost/login.php" class="registration">Войти</a>
+        </div>
+
+    </header>
+
+
+    <!--Navbar-->
+
+    <div class="navbar">
+        <a href="#home" class="nav-link">
+            <i class='bx bx-home' ></i><br>
+            <span class="nav-link-title">Главная</span>
+        </a>
+        <a href="#place" class="nav-link">
+            <i class='bx bx-map-pin'></i><br>
+            <span class="nav-link-title">Место</span>
+        </a>
+        <a href="#contacts" class="nav-link">
+            <i class='bx bxl-telegram'></i><br>
+            <span class="nav-link-title">Телеграм</span>
+        </a>
+    </div>
+
+
+<!--Home-->
+
+    <div class="home container" id="home">
+        <img src="foto/back12.jpg" class="home-back">
+        <div class="home-text">
+            <h1 class="home-title">Фильм в показе</h1>
+            <p>9-го Декабря в Атриуме состоится показ долгожданного фильма
+                об одном из самых любимых казахстанских вокально-инструментальных ансамблей
+                эпохи 60, 70, 80-х – легендарной группы "Дос-Мукасан".</p>
+
+                <button class="modal__btn _modal-open" data-modal-open="modal-1">
+                    О фильме 
+                </button>
+        </div>
+        <img src="foto/back2.jpg" class="home-img">
+        <div class="styles_overlaySlot__w5RKJ">
+            <div class="styles_ratingPosterNameplate__inf1V styles_ratingPosterNameplateHdBlock__Eztxj styles_root___s7Tg styles_rootLg__iNrfZ styles_rootPositive__PIwO2" data-tid="d5cca7fd">8.4</div>
+
+        </div>
+
+    </div>
+
+
+    <!--modal-->
+
+    <div class="_modal" data-modal="modal-1">
+        <div class="modal-bg">
+            <div class="modal-body">
+                <div class="modal-close"><i class='bx bx-log-out-circle' ></i></div>
+                <div class="modal-content modal-callback">
+
+                    <div class="modal-callback__title">
+                        <img src="foto/modalfoto.jpg" class="modal-foto">
+                    </div>
+
+                    <div class="modal-callback__subtitle">
+                        <h1 class="modal-name-film-title">Дос-Мукасан (2022)</h1>
+                        <p class="modal-textile"><span class="textile">Dos-Mukasan 12+</span></p>
+
+                        <div class="about-film">
+                            <h3 class="modal-h3">О фильме</h3>
+                            
+                            <div class="modal-words">
+                                <div class="modal-leftword">Год производства</div>
+                                <div class="modal-rightword">
+                                    <p>2022</p>
+                                </div>
+                            </div>
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Страна</div>
+                                <div class="modal-rightword">
+                                    <p>Казахстан</p>
+                                </div>
+                            </div>
+    
+                            <div class="modal-words"> 
+                                <div class="modal-leftword">Жанр</div>
+                                <div class="modal-rightword">
+                                    <p>биография,</p>
+                                    <p>музыка,</p>
+                                    <p>драма</p>
+                                </div>
+                            </div>
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Режиссер</div>
+                                <div class="modal-rightword">
+                                    <p>Айдын Сахаманов</p>
+                                </div>
+                            </div>
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Сценарий</div>
+                                <div class="modal-rightword">
+                                    <p>Евфрат Шарипов</p>
+                                </div>
+                            </div>
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Продюсер</div>
+                                <div class="modal-rightword">
+                                    <p>Айгуль Байбек,</p> 
+                                    <p>Мадина Абишева,</p> 
+                                    <p>Гульнур Мамасарипова</p>
+                                </div>
+                            </div>
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Оператор</div>
+                                    <div class="modal-rightword">
+                                        <p>Сабит Семетаев</p>
+                                    </div>
+                            </div>
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Композитор</div>
+                                <div class="modal-rightword">
+                                    <a>Александр Шевченко</p>
+                                </div>
+                            </div>
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Художник</div>
+                                <div class="modal-rightword">
+                                    <p>Нурболат Жапаков,</p> 
+                                    <p>Жанар Раимова,</p> 
+                                    <p>Алена Лузанова,</p>
+                                </div>
+                            </div>
+    
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Возраст</div>
+                                <div class="modal-rightword">
+                                    <p>
+                                         <span>12+</span>
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="modal-words">
+                                <div class="modal-leftword">Время</div>
+                                <div class="modal-rightword">120 мин. / 02:00</div>
+                            </div>
+                                        
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="trailer-title">Трейлер</div>
+
+                <div class="modal-trailer">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2BXFCLSRzFs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--PLACE/TIME-->
+
+    <div class="place" id="place">
+
+        <div class="place-title">
+            <h1 class="place-title-h1"> Место показа</h1>
+        </div>
+
+        <div class="place container">
+
+            
+            <div class="place-info1">
+
+                <div class="place-words">
+                    <i class='bx bx-calendar' ></i>
+                    <div class="place-left">Дата</div>
+                    <div class="place-right">9.12.2022</div>
+                </div>
+                
+                <div class="place-words">
+                    <i class='bx bx-time-five'></i>
+                    <div class="place-left">Время</div>
+                    <div class="place-right">16:00</div>
+                </div>
+
+                <div class="place-words">
+                    <i class='bx bx-map'></i>
+                    <div class="place-left">Место</div>
+                    <div class="place-right">Atrium Hall</div>
+                </div>
+
+                <div class="place-words">
+                    <i class='bx bxs-film' ></i>
+                    <div class="place-left">Фильм</div>
+                    <div class="place-right">Дос-Мукасан</div>
+                </div>
+
+                <div class="place-tickets">
+                    <a href="#">Получить Билет</a>
+                </div>
+                
+            </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1454.0805504350076!2d76.89362057382117!3d43.206110233455995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836895257e39cb%3A0x28bb8b25d8c43156!2z0JDQu9C80LDRgtGLINCc0LXQvdC10LTQttC80LXQvdGCINCj0L3QuNCy0LXRgNGB0LjRgtC10YI!5e0!3m2!1sru!2skz!4v1669917744770!5m2!1sru!2skz" width="600" height="350" style="float: right;" class="place-map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+    <div class="contacts container" id="contacts">
+        <div class="contacts-text">
+            <div class="contacts-jop">
+                <div class="contacts-qus">
+                    <h1 class="contacts-h1">Появились вопросы?</h1>
+                    <p class="contacts-p">Напишите нам!</p>
+                </div>
+                <div class="contacts-telegram">
+                    <a href="https://t.me/almaumovienight" class="contacts-a"> <i class='bx bxl-telegram'></i></a>
+                    <a href="https://t.me/almaumovienight"> <p> Telegram</p></a>
+                </div> 
+            </div> 
+        </div>
+    </div>
+
+
+<script src="js/movienight.js"></script>
+
+</body>
+</html>
